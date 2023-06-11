@@ -42,4 +42,4 @@ jobs:
           git config --local user.name "PipelineBot"
           git add ./deploy/uat/api-configMap.yaml ./deploy/uat/api-deployment.yaml
           git commit -m "Update api-configMap.yaml due to changes in /backend/src/resources"
-          git push origin ${{ github.head_ref }}
+          git push
